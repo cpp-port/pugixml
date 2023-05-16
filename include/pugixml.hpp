@@ -50,9 +50,17 @@
 #endif
 
 // If no API is defined, assume default
-#ifndef PUGIXML_API
-#	define PUGIXML_API
-#endif
+#  if defined(_output_type_static)
+#        define PUGIXML_API
+#else
+#    if defined(WIN32) && (!defined(__BORLANDC__) || (__BORLANDC__ >= 0x500))
+#      ifdef _pugixml_project
+#        define PUGIXML_API __declspec(dllexport)
+#      else
+#        define PUGIXML_API __declspec(dllimport)
+#      endif
+#    endif
+#  endif  /* ZLIB_DLL */
 
 // If no API for classes is defined, assume default
 #ifndef PUGIXML_CLASS
