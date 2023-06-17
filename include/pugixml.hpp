@@ -59,6 +59,8 @@
 #      else
 #        define PUGIXML_API __declspec(dllimport)
 #      endif
+#    else
+#       define PUGIXML_API
 #    endif
 #  endif  /* ZLIB_DLL */
 
