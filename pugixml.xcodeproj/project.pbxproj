@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A72EEC22A3D53F1009743AD /* pugixml.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = pugixml.dylib; path = libpugixml.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A72EEC22A3D53F1009743AD /* libpugixml.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libpugixml.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A72EED12A3D5460009743AD /* _____debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
 		9A72EED62A3D5460009743AD /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
 		9A72EEDE2A3D5460009743AD /* _____release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		9A72EEC32A3D53F1009743AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A72EEC22A3D53F1009743AD /* pugixml.dylib */,
+				9A72EEC22A3D53F1009743AD /* libpugixml.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			);
 			name = pugixml;
 			productName = pugixml;
-			productReference = 9A72EEC22A3D53F1009743AD /* pugixml.dylib */;
+			productReference = 9A72EEC22A3D53F1009743AD /* libpugixml.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
