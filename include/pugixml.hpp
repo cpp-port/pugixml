@@ -50,7 +50,7 @@
 #endif
 
 // If no API is defined, assume default
-#  if defined(_output_type_static)
+#  if defined(_output_type_staticlibrary)
 #        define PUGIXML_API
 #else
 #    if defined(WIN32) && (!defined(__BORLANDC__) || (__BORLANDC__ >= 0x500))
